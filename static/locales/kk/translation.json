@@ -1,0 +1,141 @@
+{
+	"language": {
+		"kk": "Қазақша",
+		"ru": "Русский",
+		"en": "English"
+	},
+	"nav": {
+		"about": "Мекеме жайлы",
+		"service": "Қызмет",
+		"equipment": "Жабдық-cайман",
+		"policy": "Саясат",
+		"certificate": "Сертификат",
+		"contact": "Байланыс"
+	},
+	"page": {
+		"about": {
+			"name": "Мекеме жайлы",
+			"title": "Мекеме жайлы",
+			"0": "Drilling Company LLC 'Technology Management Group' represents a full range of services in the drilling field and workover rigs and specializes in the exploration and production of oil and gas drilling and water wells and develop fields. Performs work on directional drilling, sidetracking, development and maintenance of drilling fluids, service on the bits and downhole motor.",
+			"1": "Technology Management Group competitive advantage is the availability of modern and technologically sophisticated drilling equipment broad spectrum from light and mobile drilling rigs to superheavy hoisting capacity of 600 tons.",
+			"2": "'Technology Management Group', also provides for the implementation of projects of any complexity in domain comprehensive development of oil and gas objects, oil and gas processing and petrochemical industries",
+			"3": "The company has highly qualified personnel who have knowledge and experience of drilling and workover of deep wells in different geological and climatic conditions. Management «Technology Management Group» has a serious experience in oil and gas service management."
+		},
+		"service": {
+			"name": "Қызмет",
+			"title": "Біздің қызметіміз",
+			"specialization": {
+				"title": "TMG Company is specialized in exploration, production drilling and overhaul of oil and gas wells as well as renders the following services on turn-key and day work terms:", 
+				"0": "Prospecting and exploratory drilling (provision of drilling units and equipment, construction of drilling sites, utilities, derrick mounting, drilling of exploratory wells and its testing).",
+				"1": "Production drilling (drilling of straight, directional and horizontal wells, cluster and multi-hole drilling, development and bringing wells into production).",
+				"2": "Service works on casing and liner cementing.",
+				"3": "Well servicing (sidetracking of previously drilled wells, intensification of well number increase due to reperforation and acid treatment, sealing and repair of production casing, overhaul, well suspension and abandonment as well as its development and testing).",
+				"4": "Service works performed using a coiled tubing unit during well overhaul, impacting bottom-hole area and other works.",
+				"5": "Service works performed using a nitrogen-compressor unit.",
+				"6": "Core recovery.",
+				"7": "Construction and development of fields, well work over services."
+			},
+			"technology": {
+				"title": "Technologies",
+				"0": "The majority of TMG Company drilling machines is equipped with top drives manufactured by Varco and Tesco Companies as well as produced in PRC which allow drilling directional and horizontal wells, high angle holes (ERW) using advanced safe operation techniques.",
+				"1": "Drilling machine design conforming to API standards allows using them in various geographic regions and countries as well as enables to engage various foreign service companies without additional equipment modifications. The Company seeks to provide implementation of all projects at the highest technical and process level and cooperates with such service companies as Schlumberger, Halliburton and Baker Hughes.",
+				"2": "TMG Company has successfully mastered well pitless drilling technique using BKF block that allows implementing projects with stricter environmental requirements at limited sites allocated for well drilling.",
+				"3": "The Company has an in-house well drilling engineering support department as well as a drilling fluid and cementing support department.",
+				"4": "Process Technology Service is equipped with American APS measure while drilling with hydraulic interconnecting channel providing precise well drilling in accordance with the drilling program. All engineering calculations are carried out using Landmark licensed software which allows performing any well engineering evaluation.",
+				"5": "Well cementing is performed using JEREH cementing systems including the complete set of equipment required for preparation of grouting mixtures, casing cementing, equipment pressuring and other works. All parameters of process operations performed under a cementing program developed by the Company specialists are recorded on electronic media.",
+				"6": "Technology Management Group successfully solves the whole range of geological problems, as required for the overall assessment of hydrocarbon potential of poorly studied areas, and for delineation of already identified sites and prepare them for deep exploration and development drilling."
+			}
+		},
+		"policy": {
+			"title": "'Technology Management Group' мекемесінің нақты ортадағы мақсаты(саясаты)",
+			"0": "TMG Company in its activities is guided by the environmental legislation requirements. It always fulfils license obligations and endeavors to compensate man-made impact on the environment as much as possible. At TMG Company is under constant development work aimed at reducing emissions of pollutants into the atmosphere. All works on well construction are executed by pitless drilling method. TMG Company works on provision of efficient energy use. Regular energy audits have been conducted and activities on monitoring and reduction of energy consumption have been implemented at the Company.",
+			"1": "Quality of work performed",
+			"2": "The quality of our work depends on the qualifications of personnel and technologies. TMG Company guarantees a high level of social security for their employees. The company provides free medical care, rest in health spas for their employees and their families.",
+			"3": "Labor protection, industrial security, health protection and environmental protection",
+			"4": "TMG Company in its activities is guided by the environmental legislation requirements. It always fulfils license obligations and endeavors to compensate man-made impact on the environment as much as possible. At TMG Company is under constant development work aimed at reducing emissions of pollutants into the atmosphere. In all regions and all working conditions provision of staff security and respect for the environment it remains the top priority for our Company.",
+			"successexec": {
+				"title": "The main requirements for the successful execution of work are:",
+				"header": "Life and Health protection of our employees, environmental protection, our aspiration for the consistent improvement of the methods and technologies applied for industrial security and safety – is a core value for our Company.",
+				"list": {
+					"title": "The principles of company’s environmental activity are:",
+					"0": "Recognition of human right on favorable environment;",
+					"1": "Rational use of natural resources;",
+					"2": "Industrial process optimization in the context of ecological safety;",
+					"3": "Minimization of probable negative influence of productive activity on environment;",
+					"4": "Openness and availability of ecological information;"
+				}
+			},
+			"principle": {
+				"title": "Company principles on environmental protection issues:",
+				"0": "Following strictly these principals, TMG Company ensures transparence of the reports in the field of labor protection, safety procedures, environment protection. Consistent control of the employees safety, of their working places and technological process on the whole has been realized by the way of expertise of the equipment and instruments for personal safety and protection.",
+				"1": "We set ourselves a goal to implement continually the most up-to-date technologies to ensure industrial safety and environment protection, to support and develop the monitoring system, making it possible to reduce the risks of the accidents at the working places and to eliminate the possibility of environmental contamination.",
+				"2": "Carrying out the environmental actions is based on clear understanding by the employees of the fact, that reasonably balanced production tasks and maintenance of favorable environment is a necessary requirement for reduction of risks of emergency situations and ensuring safe conditions for the employees working activity and nearly living population."
+			},
+			"staffmanage": {
+				"title": "'Technology Management Group' policy in staff management domain",
+				"0": "Company solving the problem of the fullest meet the customer service offered by the Company is aware of the importance of the quality of human resource management and is committed to to use the best techniques and methods of enterprise software qualified personnel, security labor, the creation of working conditions that ensure the highest labor productivity and results.",
+				"1": "The Company's management understands supports and agrees to abide by standards and requirements the valid law in the domain of labor relationship. The main policy of the company - in the performance of each of employees his work in safe and healthy conditions, with the required quality.",
+				"2": "The domain of personnel management policy is part of a general policy. Technology Management Group company strategic line which is to improve the quality of services to meet customer requirements and society."
+			},
+			"impgoal": {
+				"title": "For implementation the set goals Company are:",
+				"0": "It makes the selection of the most qualified workers in company. Always take care about raising the professional level personnel in Company It provides a safe and productive work of the staff.",
+				"1": "It creates conditions for creative work, development of abilities of each team member. Generates ethical standards, based on the interests of all members of the community and contribute to strengthening the Company's position and increase his profits.",
+				"2": "Full implementation of customer needs and gain their confidence. Continuous improvement of the production and technical activities. This Policy is a public document designed to serve as a basis for the introduction and implementation of the management system and all the environmental and safety action plans."
+			}
+		}
+	},
+	"parameter": {
+		"name": "Параметр атауы",
+		"value": "Параметр мәні"
+	},
+	"button": {
+        "add": "Қосу",
+        "edit": "Өзгерту",
+        "delete": "Жою",
+        "cancel": "Күшін жою",
+        "save": "Сақтау",
+        "close": "Жабу"
+	},
+	"menu": {
+		"schedule": "Күнтізбе",
+		"journal": "Журнал",
+		"settings": "Қондырғылар"
+	},
+	"navbar": {
+		"profile": "Профиль",
+		"quit": "Шығу",
+		"hide-menu": "Менюді тығу"
+	},
+	"time": {
+		"month": {
+			"01": "Қаңтар",
+			"02": "Ақпан",
+			"03": "Наурыз",
+			"04": "Сәуір",
+			"05": "Мамыр",
+			"06": "Маусым",
+			"07": "Шілде",
+			"08": "Тамыз",
+			"09": "Қыркүйек",
+			"10": "Қазан",
+			"11": "Қараша",
+			"12": "Желтоқсан"
+		}
+	},
+	"ticket": {
+		"cabinet": "Кабинет",
+		"cabinets": "Кабинеттер",
+		"operator": "Оператор",
+		"operators": "Операторлар",
+		"date": "Күні, уақыты"
+	},
+	"kiosk": {
+		"line-list": {
+			"empty": "Тізім жоқ"
+		},
+		"org": {
+			"text": "Қош келдіңіздер!"
+		}
+	}
+}
