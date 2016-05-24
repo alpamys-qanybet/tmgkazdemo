@@ -108,12 +108,43 @@
 		"slogan": "Drilling Company"
 	},
 	"slide": {
+		"s0": {
+			"h0": "is specialized",
+			"h1": "in exploration,",
+			"h2": "production",
+			"h3": "drilling and overhaul",
+			"h4": "of oil and",
+			"h5": "gas wells",
+			"p0": "as well as renders the following services on turn-key and day work terms:",
+			"p1": "1. Prospecting and exploratory drilling.",
+			"p2": "2. Production drilling.",
+			"p3": "3. Service works on casing and liner cementing.",
+			"p4": "4. Well servicing",
+			"p5": "5. Service works performed using a coiled tubing unit during well overhaul, impacting bottom-hole area and other works.",
+			"p6": "6. Service works performed using a nitrogen-compressor unit.",
+			"p7": "7. Core recovery.",
+			"p8": "8. Construction and development of fields, well work over services."
+		},
 		"s1": {
 			"h0": "Availability of modern and ",
 			"h1": "technologically sophisticated",
 			"h2": "drilling equipment",
 			"p0": "broad spectrum from light and mobile drilling rigs",
 			"p1": "to superheavy hoisting capacity of 600 tons."
+		},
+		"s2": {
+			"h0": "is equipped with",
+			"h1": "top drives",
+			"p0": "manufactured by Varco and Tesco Companies",
+			"p1": " as well as produced in PRC"
+		},
+		"s3": {
+			"h0": "Drilling machine",
+			"h1": "design conforming",
+			"h2": "to API standards",
+			"p0": "allows using them in various geographic regions and countries",
+			"p1": "as well as enables to engage various foreign service companies without additional equipment modifications.",
+			"p2": "thus cooperates with such service companies as Schlumberger, Halliburton and Baker Hughes."
 		}
 	},
 	"button": {

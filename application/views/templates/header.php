@@ -102,24 +102,24 @@
     <div id="da-slider" class="da-slider">
         <div class="da-slide">
             <h2 style="margin-top: -30px;">
-                <i>специализируется на</i> <br />
-                <i>разведочном,</i> <br />
-                <i>эксплуатационном</i> <br />
-                <i>бурении и капитальном</i> <br />
-                <i>ремонте нефтегазовых</i> <br />
-                <i>и водяных скважин</i>
+                <i>{{'slide.s0.h0' | i18next}}</i> <br />
+                <i>{{'slide.s0.h1' | i18next}}</i> <br />
+                <i>{{'slide.s0.h2' | i18next}}</i> <br />
+                <i>{{'slide.s0.h3' | i18next}}</i> <br />
+                <i>{{'slide.s0.h4' | i18next}}</i> <br />
+                <i>{{'slide.s0.h5' | i18next}}</i>
             </h2>
             <div class="da-img" style="margin-top: -80px;text-align: left;">
                 <p style="margin-top: -230px;">
-                    <i>а также предоставляет следующие услуги на условиях «под ключ» и «суточная ставка»:</i><br/>
-                    <i>1. Поисково-разведочное бурение. </i> <br/>
-                    <i>2. Эксплуатационное бурение.</i> <br/>
-                    <i>3. Сервисные работы по цементированию обсадных колонн и хвостовиков.</i> <br/>
-                    <i>4. Сервисное обслуживание скважин.</i> <br/>
-                    <i>5. Сервисные работы колтюбинговой установкой при капитальном ремонте скважин, воздействии на призабойную зону и другие работы.</i> <br/>
-                    <i>6. Сервисные работы выполняемые с использованием азотно-компрессорной установки.</i> <br/>
-                    <i>7. Отбор керна.</i> <br/>
-                    <i>8. Работы по строительству и обустройству месторождений.</i>
+                    <i>{{'slide.s0.p0' | i18next}}</i><br/>
+                    <i>{{'slide.s0.p1' | i18next}}</i> <br/>
+                    <i>{{'slide.s0.p2' | i18next}}</i> <br/>
+                    <i>{{'slide.s0.p3' | i18next}}</i> <br/>
+                    <i>{{'slide.s0.p4' | i18next}}</i> <br/>
+                    <i>{{'slide.s0.p5' | i18next}}</i> <br/>
+                    <i>{{'slide.s0.p6' | i18next}}</i> <br/>
+                    <i>{{'slide.s0.p7' | i18next}}</i> <br/>
+                    <i>{{'slide.s0.p8' | i18next}}</i>
                 </p>
             </div>
         </div>
@@ -139,22 +139,29 @@
             </div>
         </div>
         <div class="da-slide">
-           <h2><i>оснащены верхними</i> <br /> <i>силовыми приводами</i></h2>
-            <p><i>производства компаний Varco, Tesco</i> <br /> <i>а также производства КНР. </i></p>
+           <h2>
+                <i>{{'slide.s2.h0' | i18next}}</i> <br />
+                <i>{{'slide.s2.h1' | i18next}}</i>
+            </h2>
+            <p>
+                <i>{{'slide.s2.p0' | i18next}}</i> <br />
+                <i>{{'slide.s2.p1' | i18next}}</i>
+            </p>
             <div class="da-img">
                 <img src="<?php echo base_url('static/img/topdrive.png'); ?>" style="margin-top: -40px;width: 600px;" />
             </div>
         </div>
 
         <div class="da-slide">
-            <h2><i>Исполнение буровых</i> <br />
-            <i>станков в соответствии</i> <br />
-            <i>со стандартами API </i>
+            <h2>
+                <i>{{'slide.s3.h0' | i18next}}</i> <br />
+                <i>{{'slide.s3.h1' | i18next}}</i> <br />
+                <i>{{'slide.s3.h2' | i18next}}</i>
             </h2>
             <p>
-                <i>позволяет применять их в различных географических регионах и странах, </i> <br />
-                <i>а также привлекать различные зарубежные сервисные компании без дополнительных доработок оборудования.</i> <br />
-                <i> поэтому, сотрудничает с такими сервисными компаниями как Schlumberger, Halliburton, BakerHughes.</i> 
+                <i>{{'slide.s3.p0' | i18next}}</i> <br />
+                <i>{{'slide.s3.p1' | i18next}}</i> <br />
+                <i>{{'slide.s3.p2' | i18next}}</i> 
             </p>
             <div class="da-img">
                 <img src="<?php echo base_url('static/img/deal.png'); ?>" style="width: 600px;" />
