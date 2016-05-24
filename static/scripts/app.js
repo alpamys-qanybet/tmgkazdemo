@@ -12,8 +12,8 @@ angular.module('jm.i18next').config(['$i18nextProvider', function($i18nextProvid
 		fallbackLng: false,
 		useCookie: true,
 		useLocalStorage: false,
+		// resGetPath: 'http://localhost/tmg.kz/static/locales/__lng__/__ns__.json'
 		resGetPath: 'http://php-tmgkaz.rhcloud.com/static/locales/__lng__/__ns__.json'
-//		resGetPath: 'http://localhost/tmg.kz/static/locales/__lng__/__ns__.json'
 	};
 }]);
 

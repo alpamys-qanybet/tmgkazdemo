@@ -2798,7 +2798,13 @@ function jqLiteParseHTML(html, context) {
 
 
 // IE9-11 has no method "contains" in SVG element and in Node.prototype. Bug #10259.
-var jqLiteContains = Node.prototype.contains || function(arg) {
+/*var jqLiteContains = Node.prototype.contains || function(arg) {
+  // jshint bitwise: false
+  return !!(this.compareDocumentPosition(arg) & 16);
+  // jshint bitwise: true
+};*/
+
+var jqLiteContains = function(arg) {
   // jshint bitwise: false
   return !!(this.compareDocumentPosition(arg) & 16);
   // jshint bitwise: true
