@@ -139,14 +139,8 @@
             </div>
         </div>
         <div class="da-slide">
-           <h2>
-                <i>{{'slide.s2.h0' | i18next}}</i> <br />
-                <i>{{'slide.s2.h1' | i18next}}</i>
-            </h2>
-            <p>
-                <i>{{'slide.s2.p0' | i18next}}</i> <br />
-                <i>{{'slide.s2.p1' | i18next}}</i>
-            </p>
+           <h2><i>оснащены верхними</i> <br /> <i>силовыми приводами</i></h2>
+            <p><i>производства компаний Varco, Tesco</i> <br /> <i>а также производства КНР. </i></p>
             <div class="da-img">
                 <img src="<?php echo base_url('static/img/topdrive.png'); ?>" style="margin-top: -40px;width: 600px;" />
             </div>
