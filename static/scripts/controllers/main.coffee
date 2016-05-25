@@ -1,4 +1,4 @@
-angular.module('tmg').controller 'MainCtrl', ['$scope', '$rootScope', '$locales', ($scope, $rootScope, $locales)->
+angular.module('tmg').controller 'MainCtrl', ['$scope', '$rootScope', '$cookies', '$locales', ($scope, $rootScope, $cookies, $locales)->
 	$rootScope.covering = true
 
 	$locales.changeLang $locales.current()
@@ -71,7 +71,31 @@ angular.module('tmg').controller 'MainCtrl', ['$scope', '$rootScope', '$locales'
 		name: 'ГОСТ Р ИСО 14001-2007 (ISO14001:2004)'
 	]
 	
+	langProblem = (lng)->
+		if lng == 'ru'
+			jQuery('.heading h2').css('font-weight', '300')
+			jQuery('.header-fixed .header-v5.header-fixed-shrink .navbar-nav > li > a').css('font-weight', '300')
+			jQuery('.header-v5 .navbar-default .navbar-nav > li > a').css('font-weight', '300')
+		else
+			jQuery('.header-v5 .navbar-default .navbar-nav > li > a').css('font-weight', '400')
+			jQuery('.header-fixed .header-v5.header-fixed-shrink .navbar-nav > li > a').css('font-weight', '400')
+			jQuery('.heading h2').css('font-weight', '400')
+	
+	jQuery(document).ready ->
+		langProblem $locales.current()
+
 	# current url
 	$rootScope.currentUrl = ->
 		document.URL
+
+	$scope.$watch  ->
+		$cookies.get 'lng'
+	,
+		(newvalue,oldvalue)->
+			# console.log 'lang changed ' + newvalue
+			langProblem newvalue
+
+	# .heading h2
+	# .header-fixed .header-v5.header-fixed-shrink .navbar-nav > li > a
+	# .header-v5 .navbar-default .navbar-nav > li > a 
 ]

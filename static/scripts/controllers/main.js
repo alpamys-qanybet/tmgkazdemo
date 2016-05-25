@@ -2,7 +2,8 @@
 (function() {
 
   angular.module('tmg').controller('MainCtrl', [
-    '$scope', '$rootScope', '$locales', function($scope, $rootScope, $locales) {
+    '$scope', '$rootScope', '$cookies', '$locales', function($scope, $rootScope, $cookies, $locales) {
+      var langProblem;
       $rootScope.covering = true;
       $locales.changeLang($locales.current());
       $scope.navs = [
@@ -78,9 +79,28 @@
           name: 'ГОСТ Р ИСО 14001-2007 (ISO14001:2004)'
         }
       ];
-      return $rootScope.currentUrl = function() {
+      langProblem = function(lng) {
+        if (lng === 'ru') {
+          jQuery('.heading h2').css('font-weight', '300');
+          jQuery('.header-fixed .header-v5.header-fixed-shrink .navbar-nav > li > a').css('font-weight', '300');
+          return jQuery('.header-v5 .navbar-default .navbar-nav > li > a').css('font-weight', '300');
+        } else {
+          jQuery('.header-v5 .navbar-default .navbar-nav > li > a').css('font-weight', '400');
+          jQuery('.header-fixed .header-v5.header-fixed-shrink .navbar-nav > li > a').css('font-weight', '400');
+          return jQuery('.heading h2').css('font-weight', '400');
+        }
+      };
+      jQuery(document).ready(function() {
+        return langProblem($locales.current());
+      });
+      $rootScope.currentUrl = function() {
         return document.URL;
       };
+      return $scope.$watch(function() {
+        return $cookies.get('lng');
+      }, function(newvalue, oldvalue) {
+        return langProblem(newvalue);
+      });
     }
   ]);
 

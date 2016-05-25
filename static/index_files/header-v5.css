@@ -430,8 +430,10 @@
 .header-v5 .navbar-default .navbar-nav > li > a {
     color: #687074;
     font-size: 16px;
-    font-weight: 400;
+    /*font-weight: 400;*/
     text-transform: uppercase;
+    font-weight: 300;
+    font-stretch: extra-condensed;
 }
 
 .header-v5 .navbar-default .navbar-nav > .active > a {
@@ -823,9 +825,11 @@
 
 @media (min-width: 992px) {
     .header-fixed .header-v5.header-fixed-shrink .navbar-nav > li > a {
-        font-size: 15px;
+        font-size: 16px;
         margin-top: 2px;
         padding: 19px 18px 26px;
+        font-weight: 300;
+        font-stretch: extra-condensed;
     }
 
     /*No Topbar*/

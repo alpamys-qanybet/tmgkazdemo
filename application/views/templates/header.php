@@ -39,6 +39,12 @@
         body {
             font-size: 16px;
         }
+
+        .mywrapper {
+            padding-left: 80px;
+            padding-right: 80px;
+            font-size: 17px;
+        }
     </style>
 </head>
 
@@ -58,15 +64,16 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="http://tmgkaz.kz">
-                            <img id="logo-header" src="<?php echo base_url('static/img/tmg-light.png'); ?>" alt="Logo">
+                            <img id="logo-header" src="<?php echo base_url('static/img/logo.png'); ?>" alt="Logo">
                         </a>
                     </div>
 
                     <div class="pull-right">
                         <ul class="nav navbar-nav">
-                            <li class="dropdown">
-                                <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-delay="1000" style="cursor: default;">
-                                    {{'language.'+$cookies.get('lng') | i18next}}
+                            <li class="dropdown" style="padding: 0;">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-delay="1000" style="cursor: default; padding: 23px 20px 27px 0px; /*padding-bottom: 5px;*/">
+                                    <img src="<?php echo base_url('static/img/flag/'); ?>/{{$cookies.get('lng')}}.png">
+                                    <!-- {{'language.'+$cookies.get('lng') | i18next}} -->
                                 </a>
                                 <ul class="dropdown-menu">
 
@@ -97,8 +104,36 @@
         </div>
         <!--=== End Header v5 ===-->
 
-        <!--=== Slider ===-->
-<div style="overflow: visible;" class="tp-banner-container margin-bottom-60">
+<!--=== Collection Banner ===-->
+    <div class="collection-mybanner margin-bottom-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+<!--                     &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/>
+                    &nbsp;<br/> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=== End Collection Banner ===-->
+
+<!--=== Slider ===-->
+<!--div style="overflow: visible;" class="tp-banner-container margin-bottom-60">
     <div id="da-slider" class="da-slider">
         <div class="da-slide">
             <h2 style="margin-top: -30px;">
@@ -134,8 +169,8 @@
                 <i>{{'slide.s1.p1' | i18next}}</i>
             </p>
             <div class="da-img">
-                <img src="<?php echo base_url('static/img/eq0.jpg'); ?>" style="height: 280px"/>
-                <img src="<?php echo base_url('static/img/eq4.jpg'); ?>" style="height: 280px"/>
+                <img src="<?php #echo base_url('static/img/eq0.jpg'); ?>" style="height: 280px"/>
+                <img src="<?php #echo base_url('static/img/eq4.jpg'); ?>" style="height: 280px"/>
             </div>
         </div>
         <div class="da-slide">
@@ -148,7 +183,7 @@
                 <i>{{'slide.s2.p1' | i18next}}</i>
             </p>
             <div class="da-img">
-                <img src="<?php echo base_url('static/img/topdrive.png'); ?>" style="margin-top: -40px;width: 600px;" />
+                <img src="<?php #echo base_url('static/img/topdrive.png'); ?>" style="margin-top: -40px;width: 600px;" />
             </div>
         </div>
 
@@ -164,7 +199,7 @@
                 <i>{{'slide.s3.p2' | i18next}}</i> 
             </p>
             <div class="da-img">
-                <img src="<?php echo base_url('static/img/deal.png'); ?>" style="width: 600px;" />
+                <img src="<?php #echo base_url('static/img/deal.png'); ?>" style="width: 600px;" />
             </div>
         </div>
         <div class="da-arrows">
@@ -172,5 +207,5 @@
             <span class="da-arrows-next"></span>
         </div>
     </div>
-</div>
+</div-->
 <!--=== End Slider ===-->

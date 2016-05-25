@@ -1,8 +1,8 @@
 <div ng-controller="PageAboutCtrl">
-	<div class="container content-md">
+	<div class="container content-md mywrapper">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="heading heading-v1 margin-bottom-10">
+				<div class="heading /*heading-v1*/ margin-bottom-10">
 					<h2>{{'page.about.title' | i18next}}</h2>
 				</div>
 			</div>

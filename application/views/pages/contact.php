@@ -2,7 +2,7 @@
 	<div class="container /*content-md*/">
 		<div class="row margin-bottom-20">
 			<div class="col-md-12">
-				<div class="heading heading-v1 margin-bottom-15">
+				<div class="heading /*heading-v1*/ margin-bottom-15">
 					<h2>{{'page.contact.name' | i18next}}</h2>
 				</div>
 			</div>

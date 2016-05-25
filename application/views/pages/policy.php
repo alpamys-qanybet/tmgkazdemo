@@ -1,19 +1,22 @@
 <div ng-controller="PagePolicyCtrl">
-	<div class="container /*content-md*/">
+	<div class="container /*content-md*/ mywrapper">
 		<div class="row margin-bottom-60">
-			<div class="col-md-3">
+			<!--div class="col-md-3">
 				<div class="overflow-h">
 					<a class="illustration-v3 illustration-pol0" href="#">
 						<span class="illustration-bg">
 							<span class="illustration-ads">
 								<span class="illustration-v3-category">
-									 <!-- <span class="product-category">Men</span> -->
 									<span class="product-amount">Качество</span>
 								</span>
 							</span>
 						</span>
 					</a>
 				</div>
+			</div-->
+
+			<div class="col-md-3">
+				<div><img class="img-responsive" src="<?php echo base_url('static/img/eq3.jpg'); ?>"/></div>
 			</div>
 
 			<div class="col-md-9">

@@ -1,5 +1,5 @@
 <script type="text/ng-template" id="img">
-	<div class="overflow-h">
+	<!--div class="overflow-h">
 		<a class="illustration-v3 illustration-{{item.illustration}}" href="#">
 			<span class="illustration-bg">
 				<span class="illustration-ads">
@@ -13,7 +13,8 @@
 				</span>
 			</span>
 		</a>
-	</div>
+	</div-->
+	<img class="img-responsive" src="<?php echo base_url('static/img/'); ?>/{{item.img}}"/>
 </script>
 
 <script type="text/ng-template" id="content">

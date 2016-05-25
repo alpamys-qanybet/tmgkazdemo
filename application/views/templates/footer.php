@@ -1,10 +1,9 @@
 
 	<!--=== Footer v4 ===-->
 	<div class="footer-v4">
-		<div class="footer">
+		<!--div class="footer">
 			<div class="container">
 				<div class="row">
-					<!-- About -->
 					<div class="col-md-3 md-margin-bottom-40">
 						<a href=""><img class="footer-logo" src="<?php echo base_url('static/img/tmg-dark0.png'); ?>" alt=""></a>
 						<p>{{'footer.slogan' | i18next}}</p>
@@ -16,16 +15,7 @@
 							<li><i class="fa fa-angle-right"></i>{{'page.contact.telephone' | i18next}}</li>
 							<li><i class="fa fa-angle-right"></i>{{'page.contact.email' | i18next}}</li>
 						</ul>
-
-						<!--ul class="list-inline shop-social">
-							<li><a href="#"><i class="fb rounded-md fa fa-facebook"></i></a></li>
-							<li><a href="#"><i class="tw rounded-md fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="gp rounded-md fa fa-google-plus"></i></a></li>
-							<li><a href="#"><i class="yt rounded-md fa fa-youtube"></i></a></li>
-						</ul-->
 					</div>
-					<!-- End About -->
-					<!-- Simple List -->
 					<div class="col-md-3 col-sm-4">
 						<div class="row">
 							<div class="col-sm-12 col-xs-6">
@@ -96,10 +86,9 @@
 							</div>
 						</div>
 					</div>
-					<!-- End Simple List -->
-				</div><!--/end row-->
-			</div><!--/end continer-->
-		</div><!--/footer-->
+				</div>
+			</div>
+		</div--><!--/footer-->
 
 		<div class="copyright">
 			<div class="container">
