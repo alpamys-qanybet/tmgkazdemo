@@ -45,10 +45,33 @@
             padding-right: 80px;
             font-size: 17px;
         }
+
+        #map {
+            width: 100%;
+            height: 370px;
+            /*width: 100%;
+            height: auto;*/
+        }
+
+        div.maps button {
+            color: #333 !important;
+        }
     </style>
 </head>
 
 <body ng-controller="MainCtrl" class="header-fixed">
+<!-- JS Global Compulsory -->
+<script src="<?php echo base_url('static/index_files/jquery_002.js'); ?>"></script>
+<script src="<?php echo base_url('static/index_files/jquery-migrate.js'); ?>"></script>
+<script src="<?php echo base_url('static/index_files/bootstrap.js'); ?>"></script>
+<!-- JS Implementing Plugins -->
+<script src="<?php echo base_url('static/index_files/back-to-top.js'); ?>"></script>
+<script src="<?php echo base_url('static/index_files/smoothScroll.js'); ?>"></script>
+<script src="<?php echo base_url('static/index_files/jquery_005.js'); ?>"></script>
+<script src="<?php echo base_url('static/index_files/owl.js'); ?>"></script>
+<script src="<?php echo base_url('static/index_files/jquery_004.js'); ?>"></script>
+<script src="<?php echo base_url('static/index_files/jquery_003.js'); ?>"></script>
+<script src="<?php echo base_url('static/index_files/jquery.js'); ?>"></script>
 
     <div class="wrapper">
         <!--=== Header v5 ===-->

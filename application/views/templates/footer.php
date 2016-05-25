@@ -110,18 +110,6 @@
 	<!--=== End Footer v4 ===-->
 </div><!--/wrapper-->
 
-<!-- JS Global Compulsory -->
-<script src="<?php echo base_url('static/index_files/jquery_002.js'); ?>"></script>
-<script src="<?php echo base_url('static/index_files/jquery-migrate.js'); ?>"></script>
-<script src="<?php echo base_url('static/index_files/bootstrap.js'); ?>"></script>
-<!-- JS Implementing Plugins -->
-<script src="<?php echo base_url('static/index_files/back-to-top.js'); ?>"></script>
-<script src="<?php echo base_url('static/index_files/smoothScroll.js'); ?>"></script>
-<script src="<?php echo base_url('static/index_files/jquery_005.js'); ?>"></script>
-<script src="<?php echo base_url('static/index_files/owl.js'); ?>"></script>
-<script src="<?php echo base_url('static/index_files/jquery_004.js'); ?>"></script>
-<script src="<?php echo base_url('static/index_files/jquery_003.js'); ?>"></script>
-<script src="<?php echo base_url('static/index_files/jquery.js'); ?>"></script>
 <!-- JS Customization -->
 <script src="<?php echo base_url('static/index_files/custom.js'); ?>"></script>
 <!-- JS Page Level -->
