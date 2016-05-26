@@ -37,13 +37,15 @@
 
     <style>
         body {
-            font-size: 16px;
+            /*font-size: 16px;*/
+            font-size: 17px;
+            font-stretch: extra-condensed;
+            font-weight: 400;
         }
 
         .mywrapper {
             padding-left: 80px;
             padding-right: 80px;
-            font-size: 17px;
         }
 
         #map {
@@ -92,11 +94,23 @@
                     </div>
 
                     <div class="pull-right">
-                        <ul class="nav navbar-nav">
-                            <li class="dropdown" style="padding: 0;">
+                        <ul class="nav navbar-nav flag-nav">
+                            <li>
+                                <a href ng-click="$locales.changeLang('en')" style="padding: 25px 0 5px 5px;">
+                                    <img src="<?php echo base_url('static/img/flag/'); ?>/en.png">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href ng-click="$locales.changeLang('ru')" style="padding: 25px 0 5px 5px;">
+                                    <img src="<?php echo base_url('static/img/flag/'); ?>/ru.png">
+                                </a>
+                            </li>
+
+                            <!--li class="dropdown" style="padding: 0;">
                                 <a href="javascript:void(0);" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown" data-delay="1000" style="cursor: default; padding: 23px 20px 27px 0px; /*padding-bottom: 5px;*/">
-                                    <img src="<?php echo base_url('static/img/flag/'); ?>/{{$cookies.get('lng')}}.png">
-                                    <!-- {{'language.'+$cookies.get('lng') | i18next}} -->
+                                    <img src="<?php #echo base_url('static/img/flag/'); ?>/{{$cookies.get('lng')}}.png">
+                                    <! - - {{'language.'+$cookies.get('lng') | i18next}} - - >
                                 </a>
                                 <ul class="dropdown-menu">
 
@@ -108,7 +122,7 @@
                                         <a href ng-click="$locales.changeLang('ru')">Русский</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li-->
                         </ul>
                     </div>
 
